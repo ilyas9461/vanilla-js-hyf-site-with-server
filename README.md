@@ -4,6 +4,13 @@
 ### A Quick Test-Drive
 
 Copy all of the files in your local. Open the VS Code and run with the Live Server extension. This is better.
+OR
+1. Install Node.js
+2. Navigate to the project folder and run the following from a terminal:
+   - `npm i` (to create a Node.js project)
+   - `npm run dev`
+   - `npm run server.js`
+3. Open `localhost` in a web browser, using the port specified in `server.js` e.g. http://localhost:3000/
 
 ### My Goal In This Project
 
@@ -17,7 +24,7 @@ Dark/Light mode and language options have also been added to the site. Thus, the
 Efforts were made to ensure that every designed component and page was responsive.
 
 I was wondering about SPA with Vanilla JS. I found an opportunity for this in this study. This was a different experience for me too.
-I thank you for this.
+I thank you https://www.hackyourfuture.net/ for this.
 
 ## Ilyas YAGCIOGLU
 
