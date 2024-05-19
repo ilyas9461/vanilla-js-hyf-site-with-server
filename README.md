@@ -3,7 +3,7 @@
 
 ### A Quick Test-Drive
 
-Copy ar clone all of the files in your local. Open the VS Code and run with the Live Server extension. 
+Copy or clone all of the files in your local. Open the VS Code and run with the Live Server extension. 
 ### OR
 1. Install Node.js
 2. Navigate to the project folder and run the following from a terminal:
