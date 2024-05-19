@@ -1,0 +1,58 @@
+
+.active {
+  background-color: #04AA6D;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.logo-ardu {
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s;
+  z-index: 500;
+}
+.logo-ardu-img {
+  height: 25px;
+  width: 52px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: var(--primary);
+  z-index: 3;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.topnav a {
+  float: left;
+  color: var(--neutral);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a.split {
+  float: right;
+  color: var(--neutral);
+}
+
+.pointer {cursor: pointer !important;}
+.sticky {
+  position: fixed;
+  top: 10;
+  width: 100%;
+  
+}
+@media screen and (max-width: 600px) {
+  .topnav>a {
+    display: none;
+  }
+  .active{
+    display:flex !important;
+    width:100%
+    
+  }
+}

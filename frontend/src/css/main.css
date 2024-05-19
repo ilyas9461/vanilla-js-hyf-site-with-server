@@ -1,0 +1,66 @@
+:root {
+    --primary: #222831;         /* background color*/
+    --secondary: #4c6176;       /*hover background color*/
+    --secondary-light: #d8dfe6; /*hover text color*/
+    --accent: #f05454;
+    --neutral: #eeeeee;         /* text color*/
+    --table-strip-color:#222831    
+}
+.light-mode{
+    --primary: #E8E6DC;         /* background color*/
+    --secondary: #3D3D3D;       /*hover background color*/
+    --secondary-light: #d8dfe6; /*hover text color*/
+    --accent: #f05454;
+    --neutral: #3D3D3D;         /* text color*/
+    --table-strip-color:#222831
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+body {
+    color: var(--neutral);
+    padding: 0;
+    margin:0;
+    background-color: var(--primary);
+    font-size: 18px;
+}
+
+main {
+    padding: 0 !important;
+    margin:0 !important;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-right: .75em;
+    color: var(--accent);
+}
+
+main {
+    margin: 3rem 0;
+}
+
+h1 {
+    font-size: 2.3rem;
+    margin-bottom: .5rem;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+
+.app__items {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+    font-weight: 300;
+}
+
