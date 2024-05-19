@@ -8,7 +8,7 @@ OR
 1. Install Node.js
 2. Navigate to the project folder and run the following from a terminal:
    - `npm i` (to create a Node.js project)
-   - `npm run dev`
+   - `npm run dev`  or
    - `npm run server.js`
 3. Open `localhost` in a web browser, using the port specified in `server.js` e.g. http://localhost:3000/
 
