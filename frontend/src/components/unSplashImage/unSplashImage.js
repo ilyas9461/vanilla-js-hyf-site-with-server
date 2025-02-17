@@ -14,17 +14,18 @@ class UnsplashImage extends HTMLElement {
                 <div class="center">
                     <img src="${data.url}" style="width:100%"> 
                 </div>
-                `            })
+                `
+            })
             .catch(error => console.error(error));
     }
     connectedCallback() {
         this.shadowRoot.innerHTML = `
                 <div class="center" style="width:30%">
-                    <img src="https://store.arduino.cc/cdn/shop/products/AKX00026_02.unbox_1000x750.jpg?v=1642772164"
+                    <img src="https://store.arduino.cc/cdn/shop/files/ABX00042_00.iso_1000x750.jpg?v=1727964313"
                      style="width:100%"> 
                 </div>
                 ` 
-        this.getImg()
+        // this.getImg()
     }
 }
 
