@@ -93,8 +93,8 @@ export class TopBar extends HTMLElement {
         <a class="pointer" id="edu-btn" data-i18n="education">Edu</a>
         <a class="pointer" id="design-btn" data-i18n="design">Design</a>
         <a class="split pointer" id="login-btn" data-i18n="login">Login</a>
-        <a class="split pointer" id="lang-btn" >${langBtnText}</a>
-        <a class="split pointer" id="dark-btn">${darkBtnText}</a>
+        <a href="#" class="split pointer" id="lang-btn" >${langBtnText}</a>
+        <a href="#" class="split pointer" id="dark-btn">${darkBtnText}</a>
     </div>
     <modal-login visible=${modalVisible}></modal-login>`
 

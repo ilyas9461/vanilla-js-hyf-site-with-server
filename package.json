@@ -9,7 +9,8 @@
     "dev": "nodemon server.js"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "vite": "^6.2.0"
   },
   "keywords": [],
   "author": "",

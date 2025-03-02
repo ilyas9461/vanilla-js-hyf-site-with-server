@@ -54,7 +54,7 @@ const updateContent = (langData) => {
  * @method
  * @returns {Json} langData
  */
-const getLangData=async ()=>{
+const getLangData = async () => {
   const userPreferredLanguage = localStorage.getItem('language') || 'en'
   const langData = await fetchLanguageData(userPreferredLanguage)
   return langData
@@ -90,7 +90,7 @@ const updateElLang = async (element) => {
  * @param {String} element - component root element
  * @returns {String} langData
  */
-const getMesajLangData=async (key)=>{
+const getMesajLangData = async (key) => {
   const langData = await getLangData()
   return langData[key]
 }
@@ -107,5 +107,7 @@ const changeLanguage = async (lang) => {
   updateContent(langData)
 }
 
-export { fetchLanguageData, setLanguagePreference, updateContent, 
-       changeLanguage, updateLang, updateElLang,getMesajLangData}
+export {
+  fetchLanguageData, setLanguagePreference, updateContent,
+  changeLanguage, updateLang, updateElLang, getMesajLangData
+}
